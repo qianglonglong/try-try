@@ -10,12 +10,21 @@
 
 @interface dddViewController ()
 
+
+
 @end
 
 @implementation dddViewController
 
+-(void)sayHello {
+    NSLog(@"Hello");
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self sayHello];
     // Do any additional setup after loading the view.
 }
 
