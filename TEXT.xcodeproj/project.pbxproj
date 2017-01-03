@@ -15,6 +15,7 @@
 		0C7DD6A11E1B738D004CA1A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7DD69F1E1B738D004CA1A8 /* LaunchScreen.storyboard */; };
 		0C7DD6AC1E1B738E004CA1A8 /* TEXTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7DD6AB1E1B738E004CA1A8 /* TEXTTests.m */; };
 		0C7DD6B71E1B738E004CA1A8 /* TEXTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7DD6B61E1B738E004CA1A8 /* TEXTUITests.m */; };
+		0C7DD6C61E1BB094004CA1A8 /* dddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7DD6C51E1BB094004CA1A8 /* dddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0C7DD6B21E1B738E004CA1A8 /* TEXTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEXTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7DD6B61E1B738E004CA1A8 /* TEXTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEXTUITests.m; sourceTree = "<group>"; };
 		0C7DD6B81E1B738E004CA1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7DD6C41E1BB094004CA1A8 /* dddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dddViewController.h; sourceTree = "<group>"; };
+		0C7DD6C51E1BB094004CA1A8 /* dddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0C7DD6951E1B738D004CA1A8 /* AppDelegate.m */,
 				0C7DD6971E1B738D004CA1A8 /* ViewController.h */,
 				0C7DD6981E1B738D004CA1A8 /* ViewController.m */,
+				0C7DD6C41E1BB094004CA1A8 /* dddViewController.h */,
+				0C7DD6C51E1BB094004CA1A8 /* dddViewController.m */,
 				0C7DD69A1E1B738D004CA1A8 /* Main.storyboard */,
 				0C7DD69D1E1B738D004CA1A8 /* Assets.xcassets */,
 				0C7DD69F1E1B738D004CA1A8 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C7DD6991E1B738D004CA1A8 /* ViewController.m in Sources */,
+				0C7DD6C61E1BB094004CA1A8 /* dddViewController.m in Sources */,
 				0C7DD6961E1B738D004CA1A8 /* AppDelegate.m in Sources */,
 				0C7DD6931E1B738D004CA1A8 /* main.m in Sources */,
 			);
@@ -514,6 +520,7 @@
 				0C7DD6BD1E1B738E004CA1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7DD6BE1E1B738E004CA1A8 /* Build configuration list for PBXNativeTarget "TEXTTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				0C7DD6C01E1B738E004CA1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7DD6C11E1B738E004CA1A8 /* Build configuration list for PBXNativeTarget "TEXTUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				0C7DD6C31E1B738E004CA1A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
